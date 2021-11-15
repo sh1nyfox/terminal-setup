@@ -3,7 +3,7 @@ add_newline = false
 
 # Make prompt a single line instead of two lines
 [line_break]
-disabled = false
+disabled = true
 
 # These symbols will only show when battery levels are 20% or less
 [battery]
