@@ -15,6 +15,8 @@ Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 " Plug 'mhinz/vim-startify' "Vim Startify
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'ryanoasis/vim-devicons'
+Plug 'mcauley-penney/tidy.nvim' 
+Plug 'ellisonleao/glow.nvim'
 
 set encoding=UTF-8
 
