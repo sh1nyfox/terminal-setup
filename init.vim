@@ -15,8 +15,15 @@ Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 " Plug 'mhinz/vim-startify' "Vim Startify
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'ryanoasis/vim-devicons'
-Plug 'mcauley-penney/tidy.nvim' 
+Plug 'mcauley-penney/tidy.nvim'
 Plug 'ellisonleao/glow.nvim'
+
+"Neovim Cheatsheet plugins
+
+Plug 'sudormrfbin/cheatsheet.nvim'
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 
 set encoding=UTF-8
 
@@ -52,4 +59,3 @@ let g:airline_theme='deus'
 
 " autosaves file on cursor hold
 autocmd CursorHold,CursorHoldI * update
-
