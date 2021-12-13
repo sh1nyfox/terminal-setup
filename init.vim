@@ -6,10 +6,14 @@
 :set softtabstop=4
 :set mouse=a
 
+" Plugins
+
 call plug#begin()
 
+" Airline
 Plug 'https://github.com/vim-airline/vim-airline' " Status bar
 Plug 'vim-airline/vim-airline-themes' " Airline themes
+
 Plug 'https://github.com/preservim/nerdtree' " NerdTree
 Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 " Plug 'mhinz/vim-startify' "Vim Startify
@@ -29,9 +33,14 @@ set encoding=UTF-8
 
 call plug#end()
 
+" Keyboard shortcuts
+
 nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>e
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-c> :Cheatsheet<CR>
+
+" NERDTree icons
 
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="~"
