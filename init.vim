@@ -5,6 +5,7 @@
 :set smarttab
 :set softtabstop=4
 :set mouse=a
+:set linebreak
 
 " Plugins
 
@@ -15,12 +16,13 @@ Plug 'https://github.com/vim-airline/vim-airline' " Status bar
 Plug 'vim-airline/vim-airline-themes' " Airline themes
 
 Plug 'https://github.com/preservim/nerdtree' " NerdTree
-Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
+" Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
 " Plug 'mhinz/vim-startify' "Vim Startify
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'ryanoasis/vim-devicons'
 Plug 'mcauley-penney/tidy.nvim'
 Plug 'ellisonleao/glow.nvim'
+Plug 'andrewferrier/wrapping.nvim'
 
 "Neovim Cheatsheet plugins
 
